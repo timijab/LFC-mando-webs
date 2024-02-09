@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+nav{
+    background-color: black;
+    /* background-color: #27374D; */
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.back{
+    background-blend-mode: lighten; 
+}
+.image{
+    position: absolute !important;
+    right: 80%;
+}
+#image{
+    width: 50%;
+}
+@media (min-width:1053px) {
+    #image{
+        width: 40%;
+        position: relative;
+        bottom: 7px;
+    }
+}
+.col{
+    margin-right: 70px;
+}
+.home{
+    margin-left: 230px;
+}
+.row{
+    padding-top: 12px;
+    
+    align-content: center;
+    align-items: center;
+}
+.navbar>.container-fluid{
+    justify-content: center;
+}
+.church{
+    width: 10%;
+   position: fixed;
+   margin-right: 73%;
+}
+
+.search2{
+    margin-right: 0px !important;
+}
+/* #lfc{
+    position: relative;
+    right: 250px;
+} */
+.church:hover{
+    color: #C69749;
+    cursor: pointer;
+    padding: 5px;
+}
+.home:hover, .contact:hover, .search:hover,.services:hover{
+    /* background-color: #28289d; */
+    color: #C69749;
+    cursor: pointer;
+    text-align: center;
+}
+@media (max-width: 1136px) {
+    .home, .contact, .search, .search2, .church{
+        display: none !important;
+    }
+    .services{
+        position: relative;
+        left: 100%;
+    }
+}
+
+.services{
+    display: flex;
+}
+.vision{
+    position: relative;
+    text-align: center;
+}
+@media (max-width: 749px) {
+    .flesh h2, #chapter{
+        font-size: 3vw;
+    }
+    
+}
+img#churchimage{
+    width: 100% !important;
+    height: auto;
+    overflow: hidden !important;
+
+}
+/* use transform: rotate(90deg); */
+.flesh{
+    position: absolute;
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+    border-radius: 10px; /* Add rounded corners if needed */
+    font-size: 18px; /* Adjust as needed */
+    top: 50%;
+    left: 50%;
+    color: white;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+#chapter{
+    color:#C69749;
+}
+/* adjust to fit*/
+.css-bnc8dt{
+    width: 30%  !important;
+    height: 30% !important;
+    display: none !important;
+}
+.middle{
+    display: flex;
+}
+@media (max-width: 533px) {
+    .middle {
+        display: block;
+    }
+    .left{
+        width: 100% !important;
+    }
+}
+.left{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: yellow !important;
+}   
+.css-1dr84hl{
+    padding: 20px;
+}
+.right{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+.left-arrow:hover, .right-arrow:hover{
+    color: #C69749;
+}
+.months{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#monthtext{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.play,.down,.stop,.fave{
+    margin-right: 5%;
+}
+.play:hover,.down:hover,.stop:hover,.fave:hover{
+    color: #C69749;
+}
+
+#order{
+    text-align: left !important;
+}
+.deg{
+    border-style: solid;
+    /* width: 10%; */
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0%;
+    bottom: 40%;
+    background-color: yellow;
+    border-color: yellow;
+}
+#deg{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding:20px;
+}
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    background-image: url("../images/church-image.png");
+    background-position: center;
+    color: white;
+}
+/* .socialsection{
+    /* display: flex !important;
+    justify-content: center !important;
+} */
+.soc{ 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.facebook:hover, .twitter:hover, .instagram:hover, .youtube:hover, .Telegram:hover{
+    color:#C69749;
+    cursor: pointer;
+}
