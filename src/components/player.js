@@ -173,7 +173,7 @@ export function MusicPlayerSlider(props) {
     }
 
     return () => {
-      if (audioRef.current) {
+      if (!audioRef.current) {
         audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
       }
     };
